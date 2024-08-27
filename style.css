@@ -11,12 +11,11 @@ nav{
     font-family: 'Kanit', sans-serif !important;
     
 }
-.container{
+.navcontainer{
     border-bottom:2px solid rgb(49, 49, 49) ;
     
 
 }
-.navleft{}
 .navbar-brand{
     font-size: 300%;
     text-decoration: none;
@@ -54,12 +53,12 @@ align-items: center;
     margin-top: 70px;
  }
  .carousel{
-    height: 500px;
+    height: 400px;
     
  }
 
  .carousel-inner img {
-    height: 500px; /* İstediğin yüksekliği buraya ekle */
+    height: 400px; /* İstediğin yüksekliği buraya ekle */
     object-fit: cover; /* Görüntüyü kırpmak veya uzatmak yerine düzgün bir şekilde ölçeklendirir */
 }
 
