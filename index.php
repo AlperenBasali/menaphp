@@ -2,6 +2,23 @@
 
 <?php include("partials/_header.php")?>
 
+<style>
+  /* carousel */
+ section{
+    margin-top: 70px;
+ }
+ .carousel{
+    height: 400px;
+    
+ }
+
+ .carousel-inner img {
+    height: 400px; /* İstediğin yüksekliği buraya ekle */
+    object-fit: cover; /* Görüntüyü kırpmak veya uzatmak yerine düzgün bir şekilde ölçeklendirir */
+}
+
+ /* carousel */
+</style>
 <body>
    
   <?php include("partials/_nav.php")?>
@@ -35,6 +52,4 @@
 
       
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script src="script.js"></script>
-</html>
+<?php include("partials/_script.php") ?>

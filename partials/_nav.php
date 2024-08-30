@@ -21,7 +21,7 @@
               <a class="nav-link <?php echo $currentPage == 'index.php' ? 'active' : ''; ?>" href="index.php">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ÜRÜNLER</a>
+              <a class="nav-link <?php echo $currentPage == 'urunler.php' ? 'active' : ''; ?>" href="urunler.php">URUNLER</a>
               </li>
               <li class="nav-item">
               <a class="nav-link <?php echo $currentPage == 'hakkimizda.php' ? 'active' : ''; ?>" href="hakkimizda.php">HAKKIMIZDA</a>
@@ -38,7 +38,7 @@
                 </ul>
               </li> -->
             </ul>
-            <div class="nav-item"> CONTACT : +90 555 555 55 55</div>
+            <div class="nav-item"> İLETİŞİM : +90 532 624 83 79</div>
             
           </div>
         </div>
