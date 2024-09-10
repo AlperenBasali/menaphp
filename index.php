@@ -16,7 +16,16 @@
     height: 400px; /* İstediğin yüksekliği buraya ekle */
     object-fit: cover; /* Görüntüyü kırpmak veya uzatmak yerine düzgün bir şekilde ölçeklendirir */
 }
-
+.tanim{
+  display: flex;
+  justify-content: center;
+}
+footer .container{
+  border-top: 2px solid black;
+}
+.col-4{
+  height: 100px;
+}
  /* carousel */
 </style>
 <body>
@@ -49,6 +58,16 @@
         </div>
       </section>
 
+
+      <section>
+        <div class="container">
+          <p class="tanim" >
+          Mena Yapı Malzemeleri olarak 13 yıldır hizmetinizdeyiz. Her türlü fayans seramik tezgah-arası kalekim derz dolgu bulunur. 
+          </p>
+        </div>
+      </section>
+
+      <?php include("partials/_footer.php") ?>
 
       
 </body>
