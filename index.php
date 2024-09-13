@@ -1,5 +1,8 @@
 <?php require_once('config.php')?>
-
+<!-- google site haritası nasıl yapılır kısa gpt -->
+<!-- breadcrump yap -->
+ <!-- içeriğe basınca ayrı sayfaya gitsin urllerini anlaşılır yap örn: /beyazfayans -->
+  <!-- urunler kısmını geliştir filtre koy sadece fayans olmasın -->
 <?php include("partials/_header.php")?>
 
 <style>

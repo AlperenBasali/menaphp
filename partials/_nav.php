@@ -1,4 +1,3 @@
-
 <?php
   $currentPage = basename($_SERVER['PHP_SELF']);
 ?>
@@ -6,7 +5,7 @@
 
 
 
-<nav class="navbar navbar-expand-lg ">
+<nav class="navbar navbar-expand-lg">
         
         <div class="container navcontainer">
             <div class="navLeft">
