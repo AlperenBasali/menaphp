@@ -11,7 +11,7 @@
         border: 1px solid black;
     }
     .card img {
-        height: 400px;
+        height: 300px;
         object-fit: cover;
         border-radius: 0%;
     }
@@ -54,14 +54,16 @@
 
             if ($result->num_rows > 0) {
                 // Her bir ürün için kart oluştur
-                while($row = $result->fetch_assoc()) {
+                while ($row = $result->fetch_assoc()) {
+                    echo '<a href="urunbilgi.php?id=' . urlencode($row["id"]) . '">';
                     echo '<div class="card">';
-                    echo '<img src="img/'. htmlspecialchars($row["resim"]) . '" class="card-img-top" alt="yüklenemedi">';
+                    echo '<img src="img/' . htmlspecialchars($row["resim"]) . '" class="card-img-top" alt="yüklenemedi">';
                     echo '<div class="card-body">';
                     echo '<h5 class="card-title">' . htmlspecialchars($row["baslik"]) . '</h5>';
                     echo '<p class="card-text">' . htmlspecialchars($row["aciklama"]) . '</p>';
                     echo '</div>';
                     echo '</div>';
+                    echo '</a>';
                 }
             } else {
                 echo "<p>Gösterilecek ürün yok.</p>";

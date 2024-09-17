@@ -34,6 +34,8 @@ if (isset($_GET['id'])) {
 
     if ($stmt->execute()) {
         echo "Ürün başarıyla silindi.";
+        echo "<a href='admin.php'>Admin</a>" ;
+        echo "<a href='urunler.php'>urunler</a>" ;
     } else {
         echo "Ürün silinirken hata oluştu: " . $stmt->error;
     }

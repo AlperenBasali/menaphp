@@ -1,8 +1,8 @@
 <?php require_once('config.php')?>
-<!-- google site haritası nasıl yapılır kısa gpt -->
 <!-- breadcrump yap -->
- <!-- içeriğe basınca ayrı sayfaya gitsin urllerini anlaşılır yap örn: /beyazfayans -->
-  <!-- urunler kısmını geliştir filtre koy sadece fayans olmasın -->
+<!-- içeriğe basınca ayrı sayfaya gitsin urllerini anlaşılır yap örn: /beyazfayans -->
+<!-- urunler kısmını geliştir filtre koy sadece fayans olmasın -->
+<!-- google site haritası nasıl yapılır kısa gpt -->
 <?php include("partials/_header.php")?>
 
 <style>
@@ -43,10 +43,10 @@ footer .container{
                 <img src="img/P18709_25.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item" data-bs-interval="2000">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="img/P18709_25.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="img/P18709_25.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -63,7 +63,7 @@ footer .container{
 
 
       <section>
-        <div class="container">
+        <div class="container ">
           <p class="tanim" >
           Mena Yapı Malzemeleri olarak 13 yıldır hizmetinizdeyiz. Her türlü fayans seramik tezgah-arası kalekim derz dolgu bulunur. 
           </p>

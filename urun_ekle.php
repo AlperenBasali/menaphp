@@ -1,6 +1,8 @@
 <?php
 require_once("config.php");
 session_start();
+// phpinfo();
+
 
 // Kullanıcı oturum kontrolü
 if (!isset($_SESSION['kullanici_adi']) || $_SESSION['rol'] != 'admin') {
@@ -24,13 +26,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($stmt->execute()) {
             echo "Ürün başarıyla eklendi.";
+            echo "<a href='urunler.php'>Git</a>" ;
         } else {
             echo "Ürün eklenirken hata oluştu: " . $stmt->error;
+            echo "<a href='admin.php'>Git</a>" ;
         }
 
         $stmt->close();
     } else {
-        echo "Resim yüklenirken hata oluştu.";
+        echo "Resim yüklenirken hata oluştu. Hata kodu: " . $_FILES['resim']['error'];
+        echo "<a href='admin.php'>ürün ekle</a>" ;
     }
 } else {
     echo "Geçersiz istek.";
