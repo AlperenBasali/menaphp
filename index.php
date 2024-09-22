@@ -4,7 +4,7 @@
 <!-- urunler kısmını geliştir filtre koy sadece fayans olmasın -->
 <!-- google site haritası nasıl yapılır kısa gpt -->
 <!-- Google SEO Sıralama Faktörleri: 2024 Güncel Rehber | Başarıya Ulaşın! dk 10/13 -->
-<?php include("partials/_header.php")?>
+<?php include("partials/_header.html")?>
 
 <style>
   /* carousel */
@@ -57,6 +57,7 @@ footer .container{
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
+              
             </button>
           </div>
         </div>

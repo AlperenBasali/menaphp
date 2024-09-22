@@ -1,4 +1,4 @@
-<?php include("partials/_header.php") ?>
+<?php include("partials/_header.html") ?>
 <style>
     /* body{
         background-color: rgb(209, 207, 207) !important;
