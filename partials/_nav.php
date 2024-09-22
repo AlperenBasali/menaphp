@@ -17,10 +17,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-              <a class="nav-link <?php echo $currentPage == 'index.php' ? 'active' : ''; ?>" href="index.php">HOME</a>
+              <a class="nav-link <?php echo $currentPage == 'index.php' ? 'active' : ''; ?>" href="index.php">ANASAYFA</a>
               </li>
               <li class="nav-item">
-              <a class="nav-link <?php echo $currentPage == 'urunler.php' ? 'active' : ''; ?>" href="urunler.php">URUNLER</a>
+              <a class="nav-link <?php echo $currentPage == 'urunler.php' ? 'active' : ''; ?>" href="urunler.php">ÜRÜNLER</a>
               </li>
               <li class="nav-item">
               <a class="nav-link <?php echo $currentPage == 'hakkimizda.php' ? 'active' : ''; ?>" href="hakkimizda.php">HAKKIMIZDA</a>
@@ -37,7 +37,7 @@
                 </ul>
               </li> -->
             </ul>
-            <div class="nav-item"> İLETİŞİM : +90 532 624 83 79</div>
+            <div class="nav-item">İLETİŞİM: <span id="copyButton" style="color: blue; text-decoration: underline; cursor: pointer;">0532 624 83 79</span></div>
             
           </div>
         </div>

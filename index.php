@@ -3,6 +3,7 @@
 <!-- içeriğe basınca ayrı sayfaya gitsin urllerini anlaşılır yap örn: /beyazfayans -->
 <!-- urunler kısmını geliştir filtre koy sadece fayans olmasın -->
 <!-- google site haritası nasıl yapılır kısa gpt -->
+<!-- Google SEO Sıralama Faktörleri: 2024 Güncel Rehber | Başarıya Ulaşın! dk 10/13 -->
 <?php include("partials/_header.php")?>
 
 <style>
