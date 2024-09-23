@@ -27,6 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($stmt->execute()) {
             echo "Ürün başarıyla eklendi.";
             echo "<a href='urunler.php'>Git</a>" ;
+            echo "<a href='admin.php'>   ADMİN</a>" ;
         } else {
             echo "Ürün eklenirken hata oluştu: " . $stmt->error;
             echo "<a href='admin.php'>Git</a>" ;

@@ -28,7 +28,8 @@ $result = $baglanti->query($sql);
 if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
         echo "<div>" . htmlspecialchars($row["baslik"]) . " - " . htmlspecialchars($row["aciklama"]) . 
-             " <a href='urun_sil.php?id=" . $row["id"] . "'>Sil</a></div>";
+             " <a href='urun_sil.php?id=" . $row["id"] . "'>Sil</a>".
+             " <a href='urun_duzenle.php?id=" . $row["id"] . "'>Düzenle</a></div>";
     }
 } else {
     echo "Gösterilecek ürün yok.";

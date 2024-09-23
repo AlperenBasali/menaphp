@@ -59,8 +59,8 @@
                     echo '<div class="card">';
                     echo '<img src="img/' . htmlspecialchars($row["resim"]) . '" class="card-img-top" alt="yüklenemedi">';
                     echo '<div class="card-body">';
-                    echo '<h5 class="card-title">' . htmlspecialchars($row["baslik"]) . '</h5>';
-                    echo '<p class="card-text">' . htmlspecialchars($row["aciklama"]) . '</p>';
+                    // echo '<h5 class="card-title">' . htmlspecialchars($row["baslik"]) . '</h5>';
+                    // echo '<p class="card-text">' . htmlspecialchars($row["aciklama"]) . '</p>';
                     echo '</div>';
                     echo '</div>';
                     echo '</a>';

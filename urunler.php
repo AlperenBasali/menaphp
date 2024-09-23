@@ -19,7 +19,7 @@
 }
 .seramik span{
     position: absolute;
-    left: 74px;
+    left: 42.5px;
     top: 132px;
     font-size: 150%;
     font-weight: 700;
@@ -44,12 +44,13 @@
     <section>
         <div class="container">
             <div class="row ">
-                <div class="col-12 d-flex justify-content-center">
+                <div class="col-12 col-lg-3 d-flex justify-content-center">
                     <a class="seramik" href="seramik.php">
                         <img src="WhatsApp Image 2024-09-22 at 10.04.31.jpeg" alt="">
-                        <span>SERAMİKLER</span>
+                        <span>SERAMİK&FAYANS</span>
                     </a>
                 </div>
+                
             </div>
         </div>
     </section>
